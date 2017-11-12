@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-y: scroll;
+    min-width: 400px;
+}
+
+#wrapper {
+    position: relative;
+    height: 100%;
+    margin: auto;
+    max-width: 960px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    padding: 30px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #2F4F4F;
+}
+
+h2 {
+    padding: 30px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #2F4F4F;
+}
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: #2F4F4F;
+}
+
+
+/*nav {
+    float: left;
+    border: 2px solid #2F4F4F;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+*/
+
+#reload {
+    float: right;
+    padding: 7.5px;
+}
+
+#reload:hover {
+    animation-name: big;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes big_div {
+    0% {
+        padding: 7.5px;
+    }
+    100% {
+        padding: 0px;
+    }
+}
+
+@keyframes big_im {
+    0% {
+        width: 55px;
+        height: 55px;
+    }
+    100% {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+#reload:hover {
+    animation-name: big_div;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#reload:hover img {
+    animation-name: big_im;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*a {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #A0522D;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:active {
+    /*border: 2px solid #555555;
+    background: #2F4F4F;
+}*/
+
+main {
+    margin-top: 100px;
+}
+
+#clear {
+    clear: both;
+}
+
+#past {}
+
+#train {
+    margin-top: 50px;
+    border: 2px solid #2F4F4F;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+#question {
+    margin: auto;
+    width: 40%;
+}
+
+#variants {
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#variants p {
+    color: #FFFAF0;
+}
+
+#variants div {
+    display: inline-block;
+    margin: 5px;
+}
+
+#first:hover {
+    border: 5px solid #2F4F4F;
+    margin: 0px;
+    cursor: pointer
+}
+
+#second:hover {
+    border: 5px solid #2F4F4F;
+    margin: 0px;
+    cursor: pointer
+}
+
+#first {
+    min-width: 170px;
+    width: 30%;
+    background: #2F4F4F;
+    /*border: 10px solid #2F4F4F;*/
+}
+
+#or {
+    min-width: 120px;
+    width: 20%;
+}
+
+#or p {
+    color: #A0522D;
+}
+
+#second {
+    min-width: 170px;
+    width: 30%;
+    background: #2F4F4F;
+}
+
+#result {
+    height: 10px;
+    display: none;
+    width: 100%;
+}
+
+#div_true {
+    background: #8FBC8F;
+    height: inherit;
+    float: left;
+}
+
+#div_false {
+    background: #FF6347;
+    height: inherit;
+    float: left;
+}
+
+#resNum {
+    height: 50px;
+    display: none;
+}
+
+#resNum_t {
+    width: 50%;
+    float: left;
+}
+
+#resNum_f {
+    width: 50%;
+    float: left;
+}
+
+#footer {
+    background: #2F4F4F;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+
+#footer img {
+    margin: 10px;
+    float: right;
+}
+
+#footer p {
+    color: #FAEBD7;
+    margin: 10px;
+    float: right;
+}

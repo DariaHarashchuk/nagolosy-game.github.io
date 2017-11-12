@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script1.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>НАГОЛОСИ. Зно-тренажер.</title>
+    <meta name="keywords" content="наголоси, підготовка до зно, гра, тренажер, складні випадки наголошення слів, українська мова">
+    <meta name="description" content="Цей сайт допоможе вам легко запам'ятати правильні наголоси української мови за допомогою теста, гри, тренажера, скласти Зовнішнє незалежне оцінювання 2018 року на 200 балів, швидко підготуватися до ЗНО">
+    <meta name="author" content="Гаращук Дар'я">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/train.png" type="image/png">
+
+</head>
+<!--<script>
+    var passwort = "12345";
+    var pers = prompt("Кто пришел?", 'я');
+    if (pers === false) alert("Вход отменен!");
+    else if (pers !== "Admin") alert("ты кто такой");
+    else {
+        p = prompt("а пароль?", '*****');
+        if (p == passwort) alert("")
+    }
+
+
+
+    function isInteger(num) {
+        if (~~num == num) document.write("целое!")
+    }
+    isInteger(1);
+    isInteger(1.536);
+    isInteger(-3.7);
+</script> -->
+
+<body onload=" fs_download()">
+    <div id="wrapper">
+        <header>
+            <h1>НАГОЛОСИ - нічого зайвого</h1>
+
+        </header>
+        <!--<nav>
+            <ul>
+                <li>
+                    <a href="index.html">Т</a>
+                </li>
+                <li>
+                    <a href="exam.html">Е</a>
+                </li>
+            </ul>
+        </nav>-->
+        <div id="reload" onclick="location.reload()"><img src="images/reload-icon.png" width="55px" height="55px"></div>
+        <div id="clear"></div>
+        <main>
+            <div id="past">
+                <p id="p_past"></p>
+            </div>
+            <div id="train">
+                <div id="question">
+                    <p>Чи знаєте ви, як наголошується слово <b id="word"></b>?</p>
+                </div>
+                <div id="variants">
+                    <div id="first" onclick="buttonClicked(0)">
+                        <p id="first_p"></p>
+                    </div>
+                    <div id="or">
+                        <p>АБО</p>
+                    </div>
+                    <div id="second" onclick="buttonClicked(1)">
+                        <p id="second_p"></p>
+                    </div>
+                </div>
+                <div id="result">
+                    <div id="div_true">
+                        <p id="p_true"></p>
+                    </div>
+                    <div id="div_false">
+                        <p id="p_false"></p>
+                    </div>
+                </div>
+                <div id="resNum">
+                    <p id="resNum_t"></p>
+                    <p id="resNum_f"></p>
+                </div>
+            </div>
+            <div>
+                <h2>Цей сайт - гра-тренажер зі складними вИпадками наголошення слів українськлї мови. Цікава гра - приємний спосіб підготовки до ЗНО. Зараз тут представлено понад 70 слів. Всі побажання і коментарі надсилайте мені на Фейсбук (посилання внизу сторінки). <br>Хай щастить!</h2></div>
+        </main>
+
+    </div>
+    <div id="clear"></div>
+    <div id="footer">
+        <a href="https://www.facebook.com/profile.php?id=100012587947043"><img src="images/fb-icon.png" width="34px" height="34px"></a>
+        <p>with love D.H.</p>
+    </div>
+</body>
+
+</html>
